@@ -13,11 +13,19 @@
             "homepage": "https://github.com/CyberSource/cybersource-rest-client-php"
         }
     ],
+    "repositories": [
+        {
+            "name": "vath/apcu-adapter",
+            "type": "vcs",
+            "url": "https://github.com/ysok/apcu-adapter.git"
+        }
+    ],
     "require": {
         "php": ">=5.6",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
+        "vath/apcu-adapter": "dev-master",
         "firebase/php-jwt": "5.0.0"
     },
     "require-dev": {
